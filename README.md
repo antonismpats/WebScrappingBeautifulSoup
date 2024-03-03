@@ -9,7 +9,7 @@ The script uses the requests library to make an HTTP request to the basketball-r
 BeautifulSoup is then employed to parse the HTML content. You can see the HTML code of any website by right clicking and selecting inspect on it.
 ## Extracting Player Name:
 
-The player's name is extracted from the HTML using BeautifulSoup, specifically from an <h1> tag.
+The player's name is extracted from the HTML using BeautifulSoup, specifically from an h1 tag.
 ## Extracting Last Five Games Stats:
 
 The script identifies the table containing the last five games' stats based on the table ID ('last5').
